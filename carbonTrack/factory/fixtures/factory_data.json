@@ -1,0 +1,605 @@
+[
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Boito Tea Factory",
+            "factory_location": "Boito-Konoin, Bomet County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Kapkoros Tea Factory",
+            "factory_location": "Litein, Bomet County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Kapset Tea Factory",
+            "factory_location": "Kericho, Bomet County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Kobel Tea Factory",
+            "factory_location": "Kericho, Bomet County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Mogogosiek Tea Factory",
+            "factory_location": "Boito-Konoin, Bomet County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Motigo Tea Factory",
+            "factory_location": "Litein, Bomet County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Rorok Tea Factory",
+            "factory_location": "Konoin-Kericho, Bomet County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Tebesonik Tea Factory",
+            "factory_location": "Litein, Bomet County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Tirgaga Tea Factory",
+            "factory_location": "Litein, Bomet County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Kathangariri Tea Factory",
+            "factory_location": "Embu, Embu County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Mungania Tea Factory",
+            "factory_location": "Kagaari, North-Embu, Embu County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Rukuriri Tea Factory",
+            "factory_location": "Runyenjes, Embu County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Chelal Tea Factory",
+            "factory_location": "A satellite of Litein Tea Factory, Kericho County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Kapkatet Tea Factory",
+            "factory_location": "41km from Litein, Kericho County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Litein Tea Factory",
+            "factory_location": "Kisiara-Roret-Litein, Kericho County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Momul Tea Factory",
+            "factory_location": "Chemamul, Kericho County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Tegat Tea Factory",
+            "factory_location": "Waldai-Kericho, Kericho County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Toror Tea Factory",
+            "factory_location": "A satellite of Tegat Tea Factory, Kericho County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Gachege Tea Factory",
+            "factory_location": "Gatundu North, Kiambu County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Kagwe Tea Factory",
+            "factory_location": "Githunguri, Kiambu County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Kambaa Tea Factory",
+            "factory_location": "Githunguri, Kiambu County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Mataara Tea Factory",
+            "factory_location": "Chania, Kiambu County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Ndarugu Tea Factory",
+            "factory_location": "Gatundu, Kiambu County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Ngere Tea Factory",
+            "factory_location": "Kariara-Thika, Kiambu County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Theta Tea Factory",
+            "factory_location": "Gatundu, Kiambu County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Kangaita Tea Factory",
+            "factory_location": "Southern slopes of Mount Kenya, Kirinyaga County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Kimunye Tea Factory",
+            "factory_location": "Gichugu Division, Kirinyaga County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Mununga Tea Factory",
+            "factory_location": "Kagumo-Kerugoya, Kirinyaga County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Ndima Tea Factory",
+            "factory_location": "Karatina, Kirinyaga County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Thumaita Tea Factory",
+            "factory_location": "Kianyaga, Kirinyaga County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Eberege Tea Factory",
+            "factory_location": "South Mugirango, Kisii County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Itumbe Tea Factory",
+            "factory_location": "Gionsaria Nyamache, Kisii County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Kiamokama Tea Factory",
+            "factory_location": "Gesusu-Keroka, Kisii County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Nyamache Tea Factory",
+            "factory_location": "Gionsaria Nyamache, Kisii County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Ogembo Tea Factory",
+            "factory_location": "Tendere-Gucha, Kisii County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Rianyamwamu Tea Factory",
+            "factory_location": "15 km from Kisii town, Kisii County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Sombogo Tea Factory",
+            "factory_location": "Kisii, Kisii County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Githongo Tea Factory",
+            "factory_location": "Meru Central, Meru County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Igembe Tea Factory",
+            "factory_location": "Maua, Meru North, Meru County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Imenti Tea Factory",
+            "factory_location": "Nkubu-Marimba, Meru County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Kiegoi Tea Factory",
+            "factory_location": "Maua, Meru North, Meru County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Kinoro Tea Factory",
+            "factory_location": "Imenti South, Meru County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Kionyo Tea Factory",
+            "factory_location": "Nkubu, Meru County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Michimikuru Tea Factory",
+            "factory_location": "Nyambane Hills, Tigania, Meru County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Gacharage Tea Factory",
+            "factory_location": "Mununga-Thika, Muranga County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Gatunguru Tea Factory",
+            "factory_location": "Kagema-Kiriti, Muranga County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Githambo Tea Factory",
+            "factory_location": "Kahuro, Muranga County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Ikumbi Tea Factory",
+            "factory_location": "Ikumbi-Thika, Muranga County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Kanyenyaini Tea Factory",
+            "factory_location": "Kangema, Muranga County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Kiru Tea Factory",
+            "factory_location": "Kiria-ini, Muranga County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Makomboki Tea Factory",
+            "factory_location": "Thika, Muranga County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Nduti Tea Factory",
+            "factory_location": "Kangari, Muranga County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Njunu Tea Factory",
+            "factory_location": "Thika, Muranga County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Chebut Tea Factory",
+            "factory_location": "Kapsabet, Nandi County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Kaptumo Tea Factory",
+            "factory_location": "A satellite factory of Chebut Tea Factory, Nandi County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Gianchore Tea Factory",
+            "factory_location": "Keera-Nyamira, Nyamira County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Kebirigo Tea Factory",
+            "factory_location": "Kebirigo, Nyamira County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Nyansiongo Tea Factory",
+            "factory_location": "Kisii, Nyamira County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Nyankoba Tea Factory",
+            "factory_location": "Keroka, Nyamira County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Sanganyi Tea Factory",
+            "factory_location": "Kebirigo, Nyamira County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Tombe Tea Factory",
+            "factory_location": "Central Kitutu-Kisii, Nyamira County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Chinga Tea Factory",
+            "factory_location": "Kagicha, Othaya South, Nyeri County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Gathuthi Tea Factory",
+            "factory_location": "Nyeri, Nyeri County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Gitugi Tea Factory",
+            "factory_location": "Othaya-Mahiga, Nyeri County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Iriaini Tea Factory",
+            "factory_location": "Othaya-Iriaini, North, Nyeri County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+    {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Ragati Tea Factory",
+            "factory_location": "Kagochi-Karatina, Nyeri County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    },
+     {
+        "model": "factory.Factory",
+        "pk": null,
+        "fields": {
+            "factory_name": "Maramba Tea Factory",
+            "factory_location": "Limuru, Kiambu County",
+            "created_at": "2025-09-02T21:48:00Z"
+        }
+    }
+]
