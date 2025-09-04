@@ -14,5 +14,4 @@ class EnergyEntryDataViewSet(viewsets.ModelViewSet):
         return EnergyEntryData.objects.filter(user=user)
     
     def perform_create(self, serializer):
-        # Associate the logged-in user as the owner of the created entry
         serializer.save(user=self.request.user)
