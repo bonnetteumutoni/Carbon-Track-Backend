@@ -1,36 +1,61 @@
-name: ci-cd
+name: CI
 
-on: [push, pull_request]
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    - cron: "0 12 * * *"
+  workflow_dispatch:
 
 jobs:
-  ci:
+  test:
     runs-on: ubuntu-latest
+    
+    strategy:
+      matrix:
+        python-version: ['3.9', '3.10', '3.11', '3.12']
+      fail-fast: false
 
     steps:
-    - name: Set up Python 3.12
-      uses: actions/setup-python@v2
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v4
       with:
-        python-version: 3.12
+        python-version: ${{ matrix.python-version }}
 
-    - name: Check-out repository
-      uses: actions/checkout@v2
+    - name: Install Poetry
+      run: |
+        curl -sSL https://install.python-poetry.org | python3 -
+        echo "$HOME/.local/bin" >> $GITHUB_PATH
 
-    - name: Install poetry
-      uses: snok/install-poetry@v1
+    - name: Cache Poetry Virtualenv
+      uses: actions/cache@v3
+      with:
+        path: .venv
+        key: ${{ runner.os }}-poetry-${{ hashFiles('**/poetry.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-poetry-
 
-    - name: Install package
-      run: poetry install
+    - name: Install Dependencies
+      run: |
+        poetry config virtualenvs.in-project true
+        poetry install --no-interaction --no-root
       working-directory: carbonTrack
 
-    - name: Test with pytest
-      run: poetry run pytest tests/ --cov=pycounts --cov-report=xml
+    - name: Run Tests
+      run: |
+        poetry run pytest --cov=pycounts --cov-report=xml
       working-directory: carbonTrack
 
-    - name: Use Codecov to track coverage
-      uses: codecov/codecov-action@v2
+    - name: Upload coverage to Codecov
+      uses: codecov/codecov-action@v3
       with:
-        files: ./coverage.xml
+        files: carbonTrack/coverage.xml
 
-    - name: Build documentation
-      run: poetry run make html --directory docs/
+    - name: Build Documentation
+      run: |
+        poetry run make html --directory docs/
       working-directory: carbonTrack
