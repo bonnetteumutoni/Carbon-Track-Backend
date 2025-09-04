@@ -22,6 +22,7 @@ jobs:
 
     - name: Install package
       run: poetry install
+      working-directory: carbonTrack
 
     - name: Test with pytest
       run: poetry run pytest tests/ --cov=pycounts --cov-report=xml
