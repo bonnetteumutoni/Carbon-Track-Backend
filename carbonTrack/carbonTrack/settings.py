@@ -26,6 +26,7 @@ SECRET_KEY = 'django-insecure-b2d683vd(t9ec39qceb)v5nx6g@%1*yo_8i(flyvd#t_1vt9cl
 DEBUG = True
 
 ALLOWED_HOSTS = []
+AUTH_USER_MODEL = 'users.CustomUser'
 
 
 # Application definition
@@ -40,6 +41,8 @@ INSTALLED_APPS = [
     'mcu',
     'emissions',
     'factory',
+    'energy_entry_data',
+    'users',
 ]
 
 MIDDLEWARE = [
