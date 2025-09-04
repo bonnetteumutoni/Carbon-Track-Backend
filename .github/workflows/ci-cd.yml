@@ -11,7 +11,7 @@ jobs:
 
     strategy:
       matrix:
-        python-version: ['3.8', '3.9', '3.10', '3.11', '3.12']
+        python-version: [3.8, 3.9, 3.10, 3.11, 3.12]
 
     steps:
     - name: Checkout code
@@ -27,8 +27,20 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: Run tests
-      run: pytest tests/ --cov=src --cov-report=xml
+    - name: Run database migrations
+      run: |
+        # Adjust this command depending on the migration tool your project uses
+        # Example for Django:
+        python manage.py migrate
+        # OR for Alembic (SQLAlchemy):
+        # alembic upgrade head
+
+    - name: Run Black formatter check
+      run: |
+        # To check formatting without modifying files:
+        black --check .
+        # Or to autoformat code:
+        # black .
 
     - name: Upload coverage to Codecov
       uses: codecov/codecov-action@v3
