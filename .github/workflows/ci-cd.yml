@@ -29,18 +29,11 @@ jobs:
 
     - name: Run database migrations
       run: |
-        # Adjust this command depending on the migration tool your project uses
-        # Example for Django:
         python manage.py migrate
-        # OR for Alembic (SQLAlchemy):
-        # alembic upgrade head
 
     - name: Run Black formatter check
       run: |
-        # To check formatting without modifying files:
         black --check .
-        # Or to autoformat code:
-        # black .
 
     - name: Upload coverage to Codecov
       uses: codecov/codecov-action@v3
