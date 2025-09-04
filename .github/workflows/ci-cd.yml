@@ -4,10 +4,8 @@ on: [push, pull_request]
 
 jobs:
   ci:
- 
     runs-on: ubuntu-latest
 
- 
     steps:
     - name: Set up Python 3.12
       uses: actions/setup-python@v2
@@ -26,11 +24,13 @@ jobs:
 
     - name: Test with pytest
       run: poetry run pytest tests/ --cov=pycounts --cov-report=xml
+      working-directory: carbonTrack
 
     - name: Use Codecov to track coverage
       uses: codecov/codecov-action@v2
       with:
-        files: ./coverage.xml  
+        files: ./coverage.xml
 
     - name: Build documentation
       run: poetry run make html --directory docs/
+      working-directory: carbonTrack
