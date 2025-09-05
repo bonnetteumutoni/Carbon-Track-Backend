@@ -42,13 +42,13 @@ class EnergyEntryData(models.Model):
         self.co2_equivalent = self.calculate_co2_equivalent()
         super().save(*args, **kwargs)
 
-    @classmethod
-    def total_co2_emissions(cls):
-        from django.db.models import Sum
-        result = cls.objects.aggregate(total_emission=Sum('co2_equivalent'))
-        return result['total_emission'] or 0
+    # @classmethod
+    # def total_co2_emissions(cls):
+    #     from django.db.models import Sum
+    #     result = cls.objects.aggregate(total_emission=Sum('co2_equivalent'))
+    #     return result['total_emission'] or 0
 
-    def __str__(self):
-        unit = self.get_energy_unit()
-        factory_name = self.factory.factory_name if self.factory else "No Factory"
-        return f"{self.energy_type.title()} - {self.energy_amount} {unit} for Factory: {factory_name}"
+    # def __str__(self):
+    #     unit = self.get_energy_unit()
+    #     factory_name = self.factory.factory_name if self.factory else "No Factory"
+    #     return f"{self.energy_type.title()} - {self.energy_amount} {unit} for Factory: {factory_name}"
