@@ -1,7 +1,4 @@
-# models.py
-
 from django.db import models
-from django.conf import settings
 from factory.models import Factory
 
 
@@ -18,7 +15,7 @@ class EnergyEntryData(models.Model):
         'firewood': 'kg',
     }
 
-    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='energy_entries', null=True, blank=True)
+    factory = models.ForeignKey(Factory, on_delete=models.CASCADE, related_name='energy_entries')
     energy_type = models.CharField(max_length=100, choices=ENERGY_TYPE_CHOICES)
     energy_amount = models.DecimalField(max_digits=15, decimal_places=4)
     tea_processed_kg = models.DecimalField(max_digits=15, decimal_places=4)
@@ -53,6 +50,5 @@ class EnergyEntryData(models.Model):
 
     def __str__(self):
         unit = self.get_energy_unit()
-        factory = getattr(self.user, 'factory', None)
-        factory_name = factory.factory_name if factory else "No Factory"
+        factory_name = self.factory.factory_name if self.factory else "No Factory"
         return f"{self.energy_type.title()} - {self.energy_amount} {unit} for Factory: {factory_name}"
