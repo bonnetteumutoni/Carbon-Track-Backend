@@ -1,3 +1,4 @@
+
 from django.db import models
 
 class Factory(models.Model):
@@ -8,5 +9,3 @@ class Factory(models.Model):
 
     def __str__(self):
         return self.factory_name
-
-
